@@ -48,7 +48,7 @@ board = [
 reschedule = False
 
 # Membuat kondisi reschedule saat melewati waktu tertentu akan terjadi reschedule
-if datetime.now() >= datetime(2021, 1, 11, 10, 47):
+if datetime.now() >= datetime(2022, 1, 11, 10, 47):
     reschedule = True
 
 # Membuat kondisi saat reschedule bernilai True
